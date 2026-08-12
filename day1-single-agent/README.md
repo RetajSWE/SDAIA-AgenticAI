@@ -57,13 +57,3 @@ Enter a research topic: Agentic AI
 
 **Output:**
 <img width="813" height="656" alt="image" src="https://github.com/user-attachments/assets/5b3f7c6c-8d55-4db1-8af1-11ce90a4ae87" />
-
-
-## Why Groq (and not OpenAI)?
-
-OpenAI's API requires a paid account. Groq offers a genuinely free tier with
-strong open-source models, and its API is compatible with OpenAI's Python
-library — so the code stays exactly the same, we only change the `base_url`,
-the API key, and the model name. This shows an important Agentic AI idea:
-**the agent's logic is separate from the LLM provider** — you can swap the
-provider without changing how the agent works.
