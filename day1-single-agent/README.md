@@ -3,35 +3,18 @@
 ## What is this?
 
 A simple AI agent built in Python. It receives a research topic from the user,
-sends it to an LLM (Large Language Model) with clear instructions, and returns
-a short structured summary.
-
-This is the simplest possible example of an AI Agent:
+sends it to an LLM, and returns a short structured summary.
 
 ```
 Input → Agent → Output
 ```
-
-## Agentic AI Concepts Demonstrated
-
-- **AI Agent** — a program that uses an LLM to perform a task on behalf of the user.
-- **LLM (Large Language Model)** — the model that actually understands the topic
-  and generates the summary (here: Llama 3.3 70B, via Groq's free API).
-- **Prompt** — the instructions we give the LLM so it knows exactly what to produce.
-- **Input → Agent → Output** — the core flow of any agent: receive a request,
-  process it, return a useful result.
-
-This project intentionally does **not** use any tools, frameworks, or multi-agent
-logic — that comes in later days. The goal here is to understand the simplest
-building block first.
-
 ## Project Structure
 
 ```
 day1-single-agent/
 ├── main.py          # the agent's code
 ├── README.md         # this file
-├── .env              # your real API key (never committed to GitHub)
+├── .env              # your real API key 
 ├── .env.example       # template showing what .env should look like
 └── requirements.txt   # required Python libraries
 ```
@@ -41,11 +24,6 @@ day1-single-agent/
 ### 1. Get a free API key
 This project uses [Groq](https://console.groq.com), which offers free access
 to fast, open-source LLMs (no credit card required).
-
-1. Go to https://console.groq.com
-2. Sign up / log in
-3. Go to **API Keys** → create a new key
-4. Copy it
 
 ### 2. Set up the project
 
@@ -78,6 +56,7 @@ Enter a research topic: Agentic AI
 ```
 
 **Output:**
+<img width="813" height="656" alt="image" src="https://github.com/user-attachments/assets/5b3f7c6c-8d55-4db1-8af1-11ce90a4ae87" />
 
 
 ## Why Groq (and not OpenAI)?
