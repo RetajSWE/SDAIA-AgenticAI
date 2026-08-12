@@ -78,7 +78,6 @@ Enter a research topic: Machine Learning
 ```
 
 **Output:**
-```
 <img width="1600" height="789" alt="image" src="https://github.com/user-attachments/assets/94c2d30e-9864-4391-8ffc-580b8ad8bef7" />
 
 <img width="1600" height="260" alt="image" src="https://github.com/user-attachments/assets/7dcf02f6-88ba-48a7-b1d3-ebbf12812001" />
