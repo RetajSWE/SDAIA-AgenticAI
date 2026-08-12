@@ -1,4 +1,3 @@
-````markdown
 # Day 3 — AI Report Generator
 
 ## Overview
@@ -19,8 +18,7 @@ Python receives the response
 PDF Generator
         ↓
 output/report.pdf
-````
-
+```
 ## Project Structure
 
 ```text
